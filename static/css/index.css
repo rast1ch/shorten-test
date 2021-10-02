@@ -1,0 +1,18 @@
+#url_to{
+    width:50%;
+    height: 38px;
+    position: relative;
+    top:2px;
+    padding:0;
+    border:1px solid black;
+}
+.link-field{
+    margin-top: 40px;
+}
+.lore{
+    margin-top: 80px;
+}
+p{
+    margin-top:40px;
+    line-height: 200%;
+}

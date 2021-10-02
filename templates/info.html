@@ -1,0 +1,25 @@
+{% extends '_base.html' %}
+
+{% block title %}
+    Home
+{% endblock title %}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/info.css') }}">
+{% endblock styles%}
+{% block content %}
+    <div class="content">
+    <table>
+
+        <tr>
+            <td>Shorted link :</td>
+            <td>{{ data.url }}</td>
+        </tr>
+        <tr>
+            <td>Source link :</td>
+            <td>{{ data.link_to }}</td>
+        </tr>
+    </table>
+
+
+    </div>
+{% endblock content %}
